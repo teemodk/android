@@ -7,6 +7,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="cm"
+           fetch="https://github.com/" />
+           review="review.cyanogenmod.org" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -300,8 +304,8 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -445,4 +449,13 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
+
+  <--- Endeavoru Part ---->
+  <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="omni" />
+  <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="omni" />
+  <project path="kernel/htc/next_endeavoru" name="audahadi/next_endeavoru_kernel" remote="github" revision="master" />
+  
+  <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
+  <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />
+
 </manifest>

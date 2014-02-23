@@ -39,3 +39,9 @@ Then to build:
 
 If you need more information or a more detailed guide, check [Here](http://docs.omnirom.org)
 Our Official IRC Channel: [#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom)  ,  [#omni - DEVS](http://webchat.freenode.net/?channels=omni)
+
+For Endeavoru (HTC One X)
+-------------------------
+
+repo init -u git://github.com/audahadi/android.git -b <branch>
+

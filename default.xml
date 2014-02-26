@@ -455,7 +455,7 @@
   <!--Endeavoru parts -->
   <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="omni" />
   <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="omni" />
-  <project path="kernel/htc/next_endeavoru" name="audahadi/next_endeavoru_kernel" remote="github" revision="master" />
+  <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="cm-11.0" />
   
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />

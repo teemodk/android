@@ -11,6 +11,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="cm"
+           fetch="https://github.com/" />
+
   <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -227,7 +230,6 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="Mahdi-Rom/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
@@ -284,8 +286,6 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-11.0" />
   <project path="libcore" name="Mahdi-Rom/android_libcore" remote="github" revision="kk-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -423,6 +423,7 @@
   <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="github" revision="kk-4.4" />
   <project path="external/pciutils" name="Mahdi-Rom/android_external_pciutils" remote="github" revision="kk-4.4" />
   <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="github" revision="kk-4.4" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
 
   <project path="external/rsync" name="Mahdi-Rom/android_external_rsync" remote="github" revision="kk-4.4" />
   <project path="external/gson" name="Mahdi-Rom/android_external_gson" remote="github" revision="kk-4.4" />
@@ -447,6 +448,8 @@
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
@@ -462,7 +465,7 @@
   <!--Endeavoru parts -->
   <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="mahdi" />
   <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="mahdi" />
-  <project path="kernel/htc/next_endeavoru" name="audahadi/next_endeavoru_kernel" remote="github" revision="master" />
+  <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="cm" revision="cm-11.0" />
   
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />

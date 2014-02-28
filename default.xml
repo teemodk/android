@@ -231,7 +231,6 @@
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="Mahdi-Rom/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4" />

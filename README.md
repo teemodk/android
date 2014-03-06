@@ -43,5 +43,5 @@ Our Official IRC Channel: [#omnirom - USERS](http://webchat.freenode.net/?channe
 For Endeavoru (HTC One X)
 -------------------------
 
-repo init -u git://github.com/audahadi/android.git -b android-4.4
+    repo init -u git://github.com/audahadi/android.git -b android-4.4
 

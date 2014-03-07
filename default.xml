@@ -452,7 +452,8 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" /> 
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
 
   <!--Endeavoru parts -->
   <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="omni" />

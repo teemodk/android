@@ -297,8 +297,8 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
 
   <!-- Endeavoru Parts -->
-  <project path="device/htc" name="audahadi/device_htc_tegra3-common" remote="github" revision="twrp" />
-  <project path="device/htc" name="audahadi/device_htc_endeavoru" remote="github" revision="twrp" />
+  <project path="device/htc/endeavoru" name="audahadi/device_htc_tegra3-common" remote="github" revision="twrp" />
+  <project path="device/htc/tegra3-common" name="audahadi/device_htc_endeavoru" remote="github" revision="twrp" />
 
   <!-- CM Parts -->
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />

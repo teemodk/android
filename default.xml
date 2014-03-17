@@ -269,7 +269,6 @@
   <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="github" revision="kk-4.4" />
   <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="github" revision="kk-4.4" />
@@ -443,12 +442,9 @@
   <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4" />
 
   <!-- CyanogenMod H/W suppport -->
-  <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4" />
-  <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk-4.4" />
-  <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
@@ -464,7 +460,6 @@
   <!--Endeavoru parts -->
   <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="mahdi" />
   <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="mahdi" />
-  <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="cm" revision="cm-11.0" />
   
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />

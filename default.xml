@@ -14,17 +14,18 @@
   <remote  name="cm"
            fetch="https://github.com/" />
 
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
   <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="Mahdi-Rom/android_art" remote="github" revision="kk-4.4" />
-  <project path="bionic" name="Mahdi-Rom/android_bionic" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="Mahdi-Rom/android_bootable_recovery" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="Mahdi-Rom/android_dalvik" remote="github" revision="kk-4.4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -445,6 +446,11 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
+
+
+  <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
+  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.4" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >

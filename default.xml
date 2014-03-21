@@ -448,9 +448,9 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-11.0" />
 
   <!-- Omni -->
-  <project path="art" name="android_art" remote="github" revision="android-4.4" />
-  <project path="bionic" name="android_bionic" remote="github" revision="android-4.4" />
-  <project path="dalvik" name="android_dalvik" remote="github" revision="android-4.4" />
+  <project path="art" name="android_art" remote="github" revision="kk-4.4" />
+  <project path="bionic" name="android_bionic" remote="github" revision="kk-4.4" />
+  <project path="dalvik" name="android_dalvik" remote="github" revision="kk-4.4" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >

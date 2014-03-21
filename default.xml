@@ -445,12 +445,12 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-11.0" />
 
-  <!-- Omni -->
+  <!-- Mahdi -->
   <project path="art" name="Mahdi-Rom/android_art" remote="github" revision="kk-4.4" />
   <project path="bionic" name="Mahdi-Rom/android_bionic" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="dalvik" name="Mahdi-Rom/android_dalvik" remote="github" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" remote="github" revision="kk-4.4" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >

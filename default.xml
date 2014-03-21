@@ -390,7 +390,6 @@
   <project path="system/core" name="Mahdi-Rom/android_system_core" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/extras" name="Mahdi-Rom/android_system_extras" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/media" name="Mahdi-Rom/android_system_media" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="system/netd" name="Mahdi-Rom/android_system_netd" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="Mahdi-Rom/android_system_vold" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -445,6 +444,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" />
 
   <!-- Mahdi -->
   <project path="art" name="Mahdi-Rom/android_art" remote="github" revision="kk-4.4" />

@@ -300,7 +300,7 @@
   <project path="packages/apps/ContactsCommon" name="Mahdi-Rom/android_packages_apps_ContactsCommon" remote="github" revision="kk-4.4" />
   <project path="packages/apps/DeskClock" name="Mahdi-Rom/android_packages_apps_DeskClock" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Dialer" name="Mahdi-Rom/android_packages_apps_Dialer" remote="github" revision="kk-4.4" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="Mahdi-Rom/android_packages_apps_Email" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="github" revision="kk-4.4" />
@@ -328,7 +328,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="Mahdi-Rom/android_packages_apps_UnifiedEmail" remote="github" revision="kk-4.4" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -415,6 +415,7 @@
   <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4" />
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4" />
   <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="github" revision="kk-4.4" />
@@ -439,6 +440,8 @@
   <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="github" revision="kk-4.4" />
   <project path="packages/apps/KernelTweaker" name="Mahdi-Rom/android_packages_apps_KernelTweaker" remote="github" revision="kk-4.4" />
   <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/MahdiSetupWizard" name="Mahdi-Rom/android_packages_apps_MahdiSetupWizard" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
 
   <!-- CyanogenMod H/W suppport -->
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
@@ -456,7 +459,6 @@
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
 
   <!-- Theme Manager -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="kk-4.4" />

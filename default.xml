@@ -433,9 +433,9 @@
   <project path="packages/themes/KitKatWhite" name="AOKP/packages_themes_KitKatWhite" remote="github" revision="kitkat" />
 
   <!--Endeavoru parts -->
-  <project path="device/htc/tegra3-common" name="device_htc_tegra3-common" remote="github" revision="omni" />
-  <project path="device/htc/endeavoru" name="device_htc_endeavoru" remote="github" revision="omni" />
-  <project name="android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="cm-11.0" />
+  <project path="device/htc/tegra3-common" name="device_htc_tegra3-common" remote="auda" revision="omni" />
+  <project path="device/htc/endeavoru" name="device_htc_endeavoru" remote="auda" revision="omni" />
+  <project name="android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="cm" revision="cm-11.0" />
   
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />

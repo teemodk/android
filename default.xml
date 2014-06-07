@@ -287,7 +287,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-4.4" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -321,7 +320,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /> 
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-4.4" />
@@ -431,8 +429,10 @@
   <project path="external/skia" name="android_external_skia" remote="auda" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="auda" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="auda" revision="android-4.4" />
+   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="auda" revision="android-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="auda" revision="android-4.4" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="auda" revision="android-4.4" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="auda" revision="android-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="auda" revision="android-4.4" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="auda" revision="android-4.4" />
   <project path="system/netd" name="android_system_netd" remote="auda" revision="cm-11.0" />

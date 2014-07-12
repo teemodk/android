@@ -426,14 +426,14 @@
   <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-4.4" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-4.4" />
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.4" />
-
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
 
   <!--Track locally -->
   <project path="device/htc/tegra3-common" name="device_htc_tegra3-common" remote="auda" revision="omni" />

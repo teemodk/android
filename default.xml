@@ -466,7 +466,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="kk-4.4.3" />
 
   <!--Endeavoru parts -->
-  <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="mahdi" />
+  <project path="device/htc/tegra3-common" name="CyanogenMod/device_htc_tegra3-common" remote="cm" revision="cm-11.0" />
   <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="mahdi" />
   
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />

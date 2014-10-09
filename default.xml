@@ -329,7 +329,7 @@
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" remote="caf" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf" />
   <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures" remote="caf" />
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"remote="caf" />
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" remote="caf" />
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="caf" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />

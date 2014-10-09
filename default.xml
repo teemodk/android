@@ -316,8 +316,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project name="platform/hardware/alsa_sound" path="hardware/qcom/alsa_sound" remote="caf" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="caf" />

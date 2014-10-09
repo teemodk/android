@@ -27,13 +27,13 @@
            review="codeaurora.org" 
            revision="kk_rb5" />
 
-  <default revision="refs/tags/android-4.4.4_r2.0.1"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="audahadi/manifest" remote="github" revision="aurora" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />

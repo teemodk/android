@@ -40,6 +40,7 @@ Then to build:
      cd <source-dir>
      . build/envsetup.sh
      lunch omni_endeavoru-userdebug
+     mka bacon
 
 
 If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)

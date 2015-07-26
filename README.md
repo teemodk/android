@@ -1,13 +1,13 @@
 Submitting Patches
 ------------------
-We're open source, and patches are always welcome!
+Our ROM is open source, and patches are always welcome!
 You can send patches by using these commands:
 
     cd <project>
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-5.1
 
 Register at gerrit.omnirom.org and use the username that you registered there in the above command
 
@@ -25,23 +25,27 @@ Getting Started
 To get started with OMNI ROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the OMNI trees, use a command like this:
+To initialize your local repository using the OMNIROM trees, use a command like this:
 
-    repo init -u git://github.com/omnirom/android.git -b <branch>
+    repo init -u git://github.com/omnirom/android.git -b android-5.1
 
-Then to sync up:
+Copy omni_manifest.xml to .repo/local_manifests/omni_manifest.xml
+
+Then to download the sources:
 
     repo sync
 
 Then to build:
 
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
+     cd <source-dir>
+     . build/envsetup.sh
+     lunch omni_endeavoru-userdebug
 
-If you need more information or a more detailed guide, check [Here](http://docs.omnirom.org)
-Our Official IRC Channel: [#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom)  ,  [#omni - DEVS](http://webchat.freenode.net/?channels=omni)
 
-For Endeavoru (HTC One X)
--------------------------
+If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
 
-    repo init -u git://github.com/audahadi/android.git -b android-4.4
+Our official IRC Channels are hosted on Freenode:
 
+[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
+
+[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)

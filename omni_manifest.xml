@@ -15,10 +15,10 @@
     <project name="CyanogenMod/android_hardware_ti_wpan"          path="hardware/ti/wpan"            remote="github" revision="cm-12.0" />
     <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8"   remote="github" revision="cm-12.0" />
        <!-- We need a small corretion for wifi -->
-    <project name="teemodk/android_hardware_libhardware_legacy"   path="hardware/libhardware_legacy" remote="github" revision="android-5.1" />
+    <project name="teemodk/hardware_libhardware_legacy"           path="hardware/libhardware_legacy" remote="github" revision="android-5.1" />
 
        <!-- HOX need UICC TLV decoding for for SIM on legacy RIL -->
-    <project name="teemodk/android_frameworks_opt_telephony"      path="frameworks/opt/telephony"    remote="github" revision="android-5.1" />
+    <project name="teemodk/frameworks_opt_telephony"              path="frameworks/opt/telephony"    remote="github" revision="android-5.1" />
 
 
        <!-- Device -->
